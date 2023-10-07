@@ -12,6 +12,11 @@
   scroll-behavior: smooth;
 }
 
+:root{
+  --separator-1: 0.8rem 0px;
+  --almost100: 90%;
+}
+
 h1,
 h2,
 h3,
@@ -30,15 +35,22 @@ h1 {
 .px2{
   padding: 5px 0px ;
 }
-.px4{
-  padding: 1rem 0px;
+
+.px3{
+  padding: var(--separator-1);
 }
 .py2{
   padding: 0px 5px;
 }
 
+.standardlink{
+  text-decoration: none;
+  color: #000;
+  font-weight: 700;
+}
+
 .btn {
-  padding: 0.4rem 1rem;
+  padding: 0.8rem 1rem;
   border: 1px solid #1a6aa2;
   background: #8bcbf9;
   letter-spacing: 1px;
@@ -48,7 +60,7 @@ h1 {
   cursor: pointer;
   font-weight: 800;
   border-radius: 0.25rem;
-  width: 85%;
+  width: var(--almost100);
 }
 
 .btn:hover {
@@ -78,17 +90,16 @@ h1 {
   color: #1b3e57;
 }
 .hero{
-  height: 100vh;
-  min-height: 100%;
+  height: 100%;
+  min-height: 100vh;
   background-color: #f0f2f5;
 }
 
 .loginpage{
   margin: 0px 40px;
-  padding: 20px 0px;
+  padding: 20px 0px 4rem 0px;
   display: flex;
   flex-direction: column;
-  gap: 20px;
   align-items: center;
   text-align: center;
 }
@@ -96,6 +107,10 @@ h1 {
 .lpsection1{
   width: 400px;
   margin: 0 auto;
+}
+
+.lpsection1 h1{
+  padding: 20px 0px;
 }
 
 .lpsection1 h2{
@@ -113,7 +128,7 @@ h1 {
   margin: 40px;
   padding: 10px 0 24px 0;
   display: flex;
-  gap: 0.5rem;
+  gap: var(--separator-1);
   flex-direction: column;
   justify-content: space-between;
   border: none;
@@ -127,8 +142,8 @@ h1 {
 input[type=text], 
 input[type=password]{
   font-size: 17px;
-    padding: 1rem 1.5rem;
-    width: 330px;
+    padding: 1.4rem 1.5rem;
+    width: var(--almost100);
     border-radius: 6px;
     height: 22px;
     line-height: 16px;
@@ -142,3 +157,13 @@ input[type=password]{
   justify-content: space-around;
 }
 
+.footerContent{
+  align-items: center;
+  place-content: center;
+  align-content: center;
+  text-align: center;
+}
+
+.footerContent span{
+  padding: 0px 2px;
+}
