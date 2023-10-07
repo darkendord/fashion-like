@@ -1,0 +1,144 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans|Roboto:400,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;600&family=Montserrat&display=swap");
+@import url("https://cdn.syncfusion.com/ej2/material.css");
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: 0.3s ease-in-out all;
+  transition: 0.3s ease-in-out all;
+  scroll-behavior: smooth;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #48647f;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+.px2{
+  padding: 5px 0px ;
+}
+.px4{
+  padding: 1rem 0px;
+}
+.py2{
+  padding: 0px 5px;
+}
+
+.btn {
+  padding: 0.4rem 1rem;
+  border: 1px solid #1a6aa2;
+  background: #8bcbf9;
+  letter-spacing: 1px;
+  text-transform: capitalize;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  cursor: pointer;
+  font-weight: 800;
+  border-radius: 0.25rem;
+  width: 85%;
+}
+
+.btn:hover {
+  background: #49a6e9;
+  color: #c5e5fc;
+}
+
+.btn:active {
+  background: #000;
+  color: #c5e5fc;
+}
+
+.link-btn {
+  margin: 0rem 0.3rem;
+  border: #f8fafc;
+  border-radius: 0.5rem;
+  text-decoration: none;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: small;
+  color: #49a6e9;
+}
+
+.link-btn:hover {
+  color: #1b3e57;
+}
+.hero{
+  height: 100vh;
+  min-height: 100%;
+  background-color: #f0f2f5;
+}
+
+.loginpage{
+  margin: 0px 40px;
+  padding: 20px 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  text-align: center;
+}
+
+.lpsection1{
+  width: 400px;
+  margin: 0 auto;
+}
+
+.lpsection1 h2{
+  font-size: 24px;
+  line-height: 28px;
+  width: auto;
+}
+
+.lpsection2{
+  
+}
+
+.login-form {
+  background-color: #ffffff;
+  margin: 40px;
+  padding: 10px 0 24px 0;
+  display: flex;
+  gap: 0.5rem;
+  flex-direction: column;
+  justify-content: space-between;
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+  box-sizing: border-box;
+  width: 396px;
+}
+
+.login-form 
+input[type=text], 
+input[type=password]{
+  font-size: 17px;
+    padding: 1rem 1.5rem;
+    width: 330px;
+    border-radius: 6px;
+    height: 22px;
+    line-height: 16px;
+    border: 1px solid #49a6e9;
+}
+
+
+.loginsection2{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
