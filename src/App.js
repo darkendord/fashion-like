@@ -4,6 +4,8 @@ import Footer from './Components/Footer';
 
 function App() {
   return (
+      <div>
+
       <article className='hero'>
 
         <div className='loginpage'>
@@ -59,19 +61,17 @@ function App() {
               </div>
 
             </form>
-          </section>
 
-          <section className='lpsection3'>
-            <div>
+            <div className='signup'>
               <a href="#" className="link standardlink">Create a Page</a> for a celebrity, brand or business.
             </div>
           </section>
         </div>
+      </article>
         <footer>
           <Footer/>
         </footer>
-
-      </article>
+      </div>
   );
 }
 
