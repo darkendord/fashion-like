@@ -1,0 +1,66 @@
+.Navbar {
+    background: var(--primary);
+    width: 100%;
+    height: 3.4rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 5rem 0 5rem;
+}
+
+.Navbar_Search {
+    width: 25rem;
+    height: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    border-radius: 0.8rem;
+}
+
+.Navbar_Search input {
+    border: none;
+    padding-left: 0.5rem;
+    width: 100%;
+    height: 100%;
+    outline: none;
+}
+
+.Navbar_LeftSide {
+    display: flex;
+    align-items: center;
+    gap: 1.2rem;
+}
+
+.Navbar_RightSide {
+    display: flex;
+    align-items: center;
+    gap: 2.5rem;
+}
+
+.Navbar_Icons {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1.6rem;
+    width: auto;
+    padding: 0.7rem;
+}
+
+.Navbar_Icons svg {
+    color: var(--grey);
+    cursor: pointer
+}
+
+.Navbar_ProfileBubble {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.Navbar_ProfileBubble img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
